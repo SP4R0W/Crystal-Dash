@@ -1,0 +1,9 @@
+E:\Programming\Godot\Bejeweled\.mono\temp\bin\Debug\Bejeweled.dll
+E:\Programming\Godot\Bejeweled\.mono\temp\bin\Debug\Bejeweled.pdb
+E:\Programming\Godot\Bejeweled\.mono\temp\obj\Debug\Bejeweled.csproj.AssemblyReference.cache
+E:\Programming\Godot\Bejeweled\.mono\temp\obj\Debug\Bejeweled.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Godot\Bejeweled\.mono\temp\obj\Debug\Bejeweled.AssemblyInfoInputs.cache
+E:\Programming\Godot\Bejeweled\.mono\temp\obj\Debug\Bejeweled.AssemblyInfo.cs
+E:\Programming\Godot\Bejeweled\.mono\temp\obj\Debug\Bejeweled.csproj.CoreCompileInputs.cache
+E:\Programming\Godot\Bejeweled\.mono\temp\obj\Debug\Bejeweled.dll
+E:\Programming\Godot\Bejeweled\.mono\temp\obj\Debug\Bejeweled.pdb
