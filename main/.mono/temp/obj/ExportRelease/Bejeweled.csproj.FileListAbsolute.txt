@@ -1,9 +1,0 @@
-E:\Programming\Godot\Bejeweled\.mono\temp\bin\ExportRelease\Bejeweled.dll
-E:\Programming\Godot\Bejeweled\.mono\temp\bin\ExportRelease\Bejeweled.pdb
-E:\Programming\Godot\Bejeweled\.mono\temp\obj\ExportRelease\Bejeweled.csproj.AssemblyReference.cache
-E:\Programming\Godot\Bejeweled\.mono\temp\obj\ExportRelease\Bejeweled.GeneratedMSBuildEditorConfig.editorconfig
-E:\Programming\Godot\Bejeweled\.mono\temp\obj\ExportRelease\Bejeweled.AssemblyInfoInputs.cache
-E:\Programming\Godot\Bejeweled\.mono\temp\obj\ExportRelease\Bejeweled.AssemblyInfo.cs
-E:\Programming\Godot\Bejeweled\.mono\temp\obj\ExportRelease\Bejeweled.csproj.CoreCompileInputs.cache
-E:\Programming\Godot\Bejeweled\.mono\temp\obj\ExportRelease\Bejeweled.dll
-E:\Programming\Godot\Bejeweled\.mono\temp\obj\ExportRelease\Bejeweled.pdb
