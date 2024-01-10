@@ -573,7 +573,7 @@ func _on_GameTimer_timeout():
 	if ($CanvasLayer/ProgressBar.value < 10) and Global.is_sfx_on:
 		$SFX/Tick.play()
 
-	if ($CanvasLayer/ProgressBar.value < 1):
+	if ($CanvasLayer/ProgressBar.value < 0):
 		Global.can_interact = false
 		Global.can_quit = false
 		$TimeTimer.stop()

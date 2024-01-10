@@ -34,16 +34,12 @@ func defferedGotoScene(newScene,animate=true):
 	var root = get_tree().root.get_node("Area")
 
 	if (animate):
-		var rootControl = CanvasLayer.new()
-		var colorRect = ColorRect.new()
+		var colorRect = root.get_node("Background/Control/ColorRect")
 		var tween = Tween.new()
 
 		colorRect.set_frame_color(Color(0, 0, 0, 0))
 
-		get_tree().get_root().add_child(rootControl)
-		rootControl.add_child(colorRect)
-		rootControl.add_child(tween)
-		colorRect._set_size(Vector2(screen.width, screen.height))
+		colorRect.add_child(tween)
 
 		tween.interpolate_property(colorRect, "color", Color(0, 0, 0, 0), Color.black, .5, Tween.TRANS_SINE, Tween.EASE_IN_OUT)
 		tween.start()
@@ -61,7 +57,7 @@ func defferedGotoScene(newScene,animate=true):
 
 		yield(tween, "tween_all_completed")
 
-		rootControl.queue_free()
+		tween.queue_free()
 
 		current_scene = root.get_child(root.get_child_count() - 1)
 

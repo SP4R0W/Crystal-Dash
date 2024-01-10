@@ -3,10 +3,7 @@ extends Node
 func _ready():
 	randomize()
 
-	if (Global.skip_menu):
-		Composer.gotoScene(Composer.scenes["game"],false,true)
-	else:
-		Composer.gotoScene(Composer.scenes["mainmenu"],false,true)
+	Composer.gotoScene(Composer.scenes["mainmenu"],false,true)
 
 	var file = File.new()
 
